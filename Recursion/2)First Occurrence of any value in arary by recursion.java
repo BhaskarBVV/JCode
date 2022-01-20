@@ -4,7 +4,7 @@ public class editor3 {
     public static Scanner sc = new Scanner(System.in);
 
     public static int firstOccur(int[] a, int val, int i) {
-        if (i + 1 == a.length)
+        if (i == a.length)
             return -1;
         if (a[i] == val)
             return i;
