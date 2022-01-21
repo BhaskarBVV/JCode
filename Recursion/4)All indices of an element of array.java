@@ -6,7 +6,7 @@ public class editor3 {
 
     public static int[] findAllIndices(int i, int val, int[] a) {
         if (i == a.length) {
-            int[] indices = new int[cnt];
+            int[] indices = new int[cnt];  // this array will be created in heap
             return indices;
         }
         if (a[i] == val)
