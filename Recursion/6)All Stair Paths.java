@@ -38,3 +38,22 @@ public class editor {
     }
 
 }
+
+
+
+
+
+
+//                        0 return list with ""
+//                        \
+//                         1^
+//                         \
+//                          1       0  0 return list with ""
+//                          \      /   |
+//                           1^   2^   1^
+//                             \ /     |
+//                              2      1     0 return list with ""
+//                              \      |     /
+//                               1^    2^   3^ 
+//                                \    |   /
+//                                     3 add '3' to the values of list coming back from 1,2,3 and return that list.
