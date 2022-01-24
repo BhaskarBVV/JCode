@@ -49,3 +49,16 @@ public class editor2 {
     }
 
 }
+
+
+// in method 2, we can use loop also
+ public static void printStairPaths(int remaining_steps, String ans_string) {
+        if (remaining_steps == 0) {
+            System.out.println(ans_string);
+            return;
+        }
+        for (int i = 1; i <= 3; i++)
+            if (remaining_steps - i >= 0) {
+                printStairPaths(remaining_steps - i, i + ans_string);
+            }
+    }
