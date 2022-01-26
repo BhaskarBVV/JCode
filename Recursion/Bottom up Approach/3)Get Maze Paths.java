@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class editor2 {
+public class editor {
     public static Scanner sc = new Scanner(System.in);
 
     // sr - source row
@@ -12,13 +12,13 @@ public class editor2 {
             System.out.println(ans);
             return;
         }
-        if (sr + 1 <= dr) // moving in row >
-        {
-            getMazePaths(sr + 1, sc, dr, dc, "H" + ans);
-        }
         if (sc + 1 <= dc) // moving in column ^
         {
-            getMazePaths(sr, sc + 1, dr, dc, "V" + ans);
+            getMazePaths(sr, sc + 1, dr, dc, "H" + ans);
+        }
+        if (sr + 1 <= dr) // moving in row >
+        {
+            getMazePaths(sr + 1, sc, dr, dc, "V" + ans);
         }
     }
 
