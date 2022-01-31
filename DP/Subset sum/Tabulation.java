@@ -1,3 +1,11 @@
+// 1. You are given a number n, representing the count of elements.
+// 2. You are given n numbers.
+// 3. You are given a number "tar".
+// 4. You are required to calculate and print true or false, if there is a subset the elements of which add up to "tar" or not.
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Sol:
+
 // current taregt = j;
 // agar main(x=a[i-1], bcz i toh ek jaada chal rhi hai, matrix main index 1 se array ke elements ko imagine kiya hua hai), khela toh kya remaining target sum mere upar wale generate kr paa rhe hain
 // matlab check (remaining target sum = j-a[i-1]) in just above row ( in above rows the sum would/ wouldn't have been achieved by my previous elements).
