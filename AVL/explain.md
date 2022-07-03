@@ -1,0 +1,6 @@
+![code for LL ](https://user-images.githubusercontent.com/71118230/177037394-226063ec-c5e1-4d86-bb26-8b1fc34b1d66.png)
+![get type of rot](https://user-images.githubusercontent.com/71118230/177037402-af24dc33-53b5-4a9d-bb75-e77d142476c4.png)
+![LL rot](https://user-images.githubusercontent.com/71118230/177037404-170dc972-f9e1-4763-83b5-67ac3360dd19.PNG)
+![LR ](https://user-images.githubusercontent.com/71118230/177037406-ff520c5b-ddc0-47b8-bc71-d5e338a4d509.png)
+![RL](https://user-images.githubusercontent.com/71118230/177037407-72b71f46-22f3-4d51-b447-7fbde6a81c5e.png)
+![image](https://user-images.githubusercontent.com/71118230/177037374-a2417b25-8c0f-4c5f-8820-54074f297e55.png)
